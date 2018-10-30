@@ -62,26 +62,24 @@
       </ul>
       <br />
       <form action="Scripting" method="post">
-        <input type="hidden" name="csrft" value="${csrft}">
+        <input type="hidden" name="csrft" value="${csrft}" />
           <table class="form" align="center">
             <tr>
               <td colspan="4"><textarea cols="80" rows="25" name="script" id="script">${script}</textarea></td>
             </tr>
             <tr>
               <td align="left" width="125px">
-                <input type="text" size="50" name="fsPath" id="fsPath" value="${fsPath}">
+                <input type="text" size="50" name="fsPath" id="fsPath" value="${fsPath}" />
               </td>
               <td align="left">
                 <a class="ds" href="../extension/DataBrowser?action=fs&dst=fsPath">
                   <img src="img/action/browse_fs.png" />
                 </a>
-              </td>
-              <td align="left">
-                <input type="submit" name="action" value="Load" class="loadButton"> 
-                <input type="submit" name="action" value="Save" class="saveButton">
-              </td>
+                <input type="submit" name="action" value="Load" class="loadButton" /> 
+                <input type="submit" name="action" value="Save" class="saveButton" />
+              </td>              
               <td align="right">
-                <input type="submit" name="action" value="Evaluate" class="executeButton">
+                <input type="submit" name="action" value="Evaluate" class="executeButton" />
               </td>
             </tr>
           </table> 
